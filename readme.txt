@@ -2,7 +2,7 @@ SparkleSite v2.2
 by Victoria of http://www.victoria-holland.info and JP of http://blog.jp-corner.uni.cc.
 Originally released 22 December 2004.
 I would like to thank Codegrrl(http://www.codegrrl.com) and Web Designer Magazine (http://www.paragon.co.uk) for their tutorials which helped me to write this script.
-_______________________________________________________
+________________________________________________________
 
 INTRO:
 
