@@ -1,12 +1,12 @@
-SparkleBlog v2.1
-by Victoria of http://www.creamed-coconut.org and JP of http://blog.jp-corner.uni.cc.
-Released 22 December 2004.
+SparkleSite v2.2
+by Victoria of http://www.victoria-holland.info and JP of http://blog.jp-corner.uni.cc.
+Originally released 22 December 2004.
 I would like to thank Codegrrl(http://www.codegrrl.com) and Web Designer Magazine (http://www.paragon.co.uk) for their tutorials which helped me to write this script.
 _______________________________________________________
 
 INTRO:
 
-SparkleBlog is a small open-source PHP script which allows you to input and edit your weblog entries, without having to go through the hassle of coding in HTML and uploading via FTP every time you want to make an update.  A weblog (aka blog) is simply an online version of a diary, and blogging has become very popular in recent years.  The time and date is automatically added to the end of each of your blog entries, so people know exactly when you posted them.  The script even allows your website's visitors to make comments on each of your blog entries, if they wish.
+SparkleSite is a small open-source PHP script which allows you to input and edit your weblog entries and create pages, without having to go through the hassle of coding in HTML and uploading via FTP every time you want to make an update.  A weblog (aka blog) is simply an online version of a diary, and blogging has become very popular in recent years.  The time and date is automatically added to the end of each of your blog entries, so people know exactly when you posted them.  The script even allows your website's visitors to make comments on each of your blog entries, if they wish.
 
 This script would also be ideal for the news/updates section of a website.  There is also the ability to password-protect individual entries, so that only certain people can access them.
 
@@ -73,7 +73,7 @@ If you want to password-protect an individual entry, you will need to open the j
 
 DEVELOPMENT:
 
-Anyone is welcome to take part in the development of this open-source script.  Development work shall take place in the Creamed Coconut forums at http://creamed-coconut.org/forum/index.php.  Suggestions and problems should also be aired there.  The script can be modified and distributed, as long as the readme file and link remains intact.
+Anyone is welcome to take part in the development of this open-source script. The script can be modified and distributed, as long as the readme file and link remains intact.
 
 
  
