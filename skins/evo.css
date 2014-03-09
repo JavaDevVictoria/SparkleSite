@@ -1,0 +1,169 @@
+/*
+Evo for SparkleBlog v2.0*(custom)
+Created by Jp
+Last edit: 17/12/2004
+Please visit http://creamed-coconut.org for more info/help/etc..
+*/
+/*
+
+--------------
+General tags - Used in all of the blog's pages
+--------------
+
+*/
+/* Default body tag, tweaked a bit in the default.css
+FIXME: the scrollbar things below don't work in firefox/netscape... */
+body {
+	background-color: #FFFF99;
+	color: #FFFFFF;
+	overflow: auto;
+	font-family: "Courier New", Courier, mono;
+}
+
+/* A div that encircles all of the output. It is meant to vertically align the content, as well as to define the 
+page width. In the default style, it is also responsible for the red thick border. */
+.container {
+	position: absolute;
+	width: 700px;
+	left: 50%;
+	margin-left: -350px;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+/* A div that contains the $blogname, defined by the user in config.php. It's sort of the title of the blog. */
+.header {
+	color: #000000;
+	font-size: 16pt;
+	line-height: 10.5pt;
+	font-weight: bold;
+	letter-spacing: 5px;
+	text-align: center;
+	padding: 5px;
+	background-color: #FF9933;
+	border: 2px solid #000000;
+}
+
+/* A div appended to the end of (almost?) page. */
+.footer {
+	color: #999999;
+	font-size: 8pt;
+	font-weight: bold;
+	text-align: center;
+	border: none;
+}
+
+/* The div containing the nav links */
+.menu {
+	position:absolute;
+	top:40px;
+	left:10px;
+	width:116px;
+	height:200px;
+	background-color:#FFFFCC;
+	border:1px solid #000000;
+	padding: 2px 2px 2px 2px;
+	line-height: normal;
+	margin: 0px;
+	color: #000000;
+}
+
+/* The div containing the main content */
+.main {
+	margin-top: 2px;
+	margin-left: 125px;
+}
+
+/*A div in the bottom of the page, that contains the "Powered by SparkleBlog" moto, and a link to creamed-coconut.org.*/
+.credits {
+	text-align: center;
+	font-size: 10px;
+	color: #808080;
+	font-style: italic;
+}
+
+
+/*
+--------------
+News tags - Used to display blog entries
+--------------
+*/
+
+
+/* This is a div that surrounds each news item.
+A news item is made of 3 diferent parts, each detailed below.
+Used in index.php */
+.news_item {
+	color: #000000;
+	background-color: #FFFFCC;
+	border: 1px solid #000000;
+	margin: 2px;
+	padding: 2px;
+}
+
+/* A paragraph inside the news_item div. It displays the title or subject of an entry.
+Used in index.php */
+.news_title {
+	font-weight: bold;
+	color: #FF0066;
+	padding-left: 5px;
+}
+
+/*A paragraph inside the news_item div, and after news_title. It contains the "body" of the entry.
+Used in index.php */
+.news_entry {
+	color: #000000;
+	padding-left: 25px;
+}
+
+/* A paragraph inside the news_item div, and after news_entry. It contains the date of the entry, as well as the "Make a comment" link. If a comment already exists, "Make a comment" is replaced with the number of comments.
+Used in index.php */
+.news_date{
+	color: #000033;
+	font-size: 12px;
+	letter-spacing: 0px;
+	padding-left: 45px;
+}
+
+/*
+
+--------------
+Archives tags - Used to display the archives entries
+--------------
+
+*/
+/* This is a div that surrounds the links to the archives, in the main blog section.
+Used in index.php */
+.archives {
+	color: #000000;
+	background-color: #FFFFCC;
+	border: 1px solid #000000;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+/* A paragraph, contains the word "Archives". It's the title of the section.
+Used in index.php */
+.archives_title {
+	color: #FF0066;
+	font-weight: bold;
+}
+
+/* Used in the links that point towards the archive. */
+.archives_link{
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+
+
+
+input, textarea, option, select {
+	background-color: #FFFFFF;
+	font: 8pt "Courier New", Courier, mono;
+	color: #000000;/* Things below make it look ugly in Firefox :/
+	letter-spacing: 1px;	
+	border: 1px solid #ffffff;
+	padding:2px; */
+}

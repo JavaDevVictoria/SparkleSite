@@ -1,0 +1,200 @@
+/*
+Default style for SparkleBlog v2.0*(custom)
+Created by Sparkle1 
+Edited by Jp
+Last edit: 16/12/2004
+Please visit http://creamed-coconut.org for more info/help/etc..
+*/
+/*
+
+--------------
+General tags - Used in all of the blog's pages
+--------------
+
+*/
+/* Default body tag, tweaked a bit in the default.css
+FIXME: the scrollbar things below don't work in firefox/netscape... */
+body {
+	background-color: white;
+	color: red;
+	scrollbar-face-color: red;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-base-color: red;
+	scrollbar-shadow-color: red;
+	scrollbar-3dlight-color: red;
+	scrollbar-arrow-color: white;
+	scrollbar-track-color: white;
+	scrollbar-darkshadow-color: red;
+	overflow: auto;
+}
+
+/* A div that encircles all of the output. It is meant to vertically align the content, as well as to define the 
+page width. In the default style, it is also responsible for the red thick border. */
+.container {
+	position: absolute;
+	width: 500px;
+	left: 50%;
+	margin-left: -250px;
+	border: 7px solid red;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+/* A div that contains the $blogname, defined by the user in config.php. It's sort of the title of the blog. */
+.header {
+	color: red;
+	font-size: 16pt;
+	font-family: trebuchet ms, arial;
+	line-height: 10.5pt;
+	font-weight: normal;
+	border-bottom: 2px solid red;
+	letter-spacing: 2px;
+	text-align: center;
+	padding: 5px;
+}
+
+/*A div in the bottom of the page, that contains the "Powered by SparkleBlog" moto, and a link to creamed-coconut.org.*/
+.credits {
+	text-align: center;
+}
+
+
+/*
+--------------
+News tags - Used to display blog entries
+--------------
+*/
+
+
+/* This is a div that surrounds each news item.
+A news item is made of 3 diferent parts, each detailed below.
+Used in index.php */
+.news_item {
+	border-bottom: 1px solid red;
+}
+
+/* A paragraph inside the news_item div. It displays the title or subject of an entry.
+Used in index.php */
+.news_title {
+	font-weight: bold;
+}
+
+/*A paragraph inside the news_item div, and after news_title. It contains the "body" of the entry.
+Used in index.php */
+.news_entry {
+}
+
+/* A paragraph inside the news_item div, and after news_entry. It contains the date of the entry, as well as the "Make a comment" link. If a comment already exists, "Make a comment" is replaced with the number of comments.
+Used in index.php */
+.news_date{
+}
+
+/*
+
+--------------
+Archives tags - Used to display the archives entries
+--------------
+
+*/
+/* This is a div that surrounds the links to the archives, in the main blog section.
+Used in index.php */
+.archives {
+}
+
+/* A paragraph, contains the word "Archives". It's the title of the section.
+Used in index.php */
+.archives_title {
+}
+
+/* Used in the links that point towards the archive. */
+.archives_link{
+}
+
+/*
+
+--------------
+Other tags - Used in diferent locations
+--------------
+
+*/
+/* FIXME: the "cursor: hand" property doesn't seem to work with netscape */
+a:link, a:visited {
+	color: red; 
+	text-decoration: none; 
+	font-weight: bold; 
+	cursor: hand;
+}
+
+a:hover, a:active {
+	color: blue; 
+	text-decoration: none; 
+	font-weight: bold; 
+	cursor: hand;
+}
+
+/* Used in the password input form, in index.php */
+.text {
+	color: red;
+	font-size: 10pt; 
+	font-family: trebuchet ms, arial; 
+	line-height: 10.5pt; 
+	font-weight: normal;
+}
+
+/* Paragraph style - Used in several places */
+.p {
+	color: red; 
+	font-size: 10pt; 
+	font-family: trebuchet ms, arial; 
+	line-height: 10.5pt; 
+	font-weight: normal;
+}
+
+.b {
+	color: red; 
+	font-size: 10pt; 
+	font-family: trebuchet ms, arial; 
+	line-height: 10.5pt; 
+	font-weight: bold;
+}
+
+b {
+	color: red; 
+	font-size: 10pt; 
+	font-family: trebuchet ms, arial; 
+	line-height: 10.5pt; 
+	font-weight: bold;
+}
+
+.main {
+	color: red; 
+	font-size: 10pt; 
+	font-family: trebuchet ms, arial; 
+	line-height: 10.5pt; 
+	font-weight: normal;
+}
+
+
+
+input, textarea, option, select {
+	background-color: red;
+	font: 8pt arial;
+	color: white;/* Things below make it look ugly in Firefox :/
+	letter-spacing: 1px;	
+	border: 1px solid #ffffff;
+	padding:2px; */
+}
+
+
+/*This is to be removed! Only to cover an ugly toolbar in my host! */
+.aha{
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+	position: absolute;
+	width: 1000px;
+	left: 50%;
+	margin-left: -500px;
+	height: 1200px;
+	top: -100px;
+	color: #000000;
+}
