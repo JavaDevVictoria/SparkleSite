@@ -10,12 +10,10 @@ SparkleSite is a small open-source PHP script which allows you to input and edit
 
 This script would also be ideal for the news/updates section of a website.  There is also the ability to password-protect individual entries, so that only certain people can access them.
 
-
 REQUIREMENTS:
 
 Your server must support PHP and you must have an available MySQL database, in which your blog entries and visitor comments will be stored.  This script will not work on free servers such as Geocities, Angelfire, Freewebs etc.
 If your server supports PHP but not MySQL, then you may still be able to use this script, by signing up for a free MySQL database from http://www.freesql.org/.
-
 
 AT-A-GLANCE FEATURES LIST:
 
@@ -64,9 +62,7 @@ If you are a hostee on someone else's domain (ie you have a subdomain), then you
 8.  To make the blog show up on your homepage, just put the following line of code wherever you want it to appear on the page:
 <? include('blog/index.php'); ?>  The homepage must be saved with a .php extension for it to work.  The blog will then blend into your existing site layout.
 
-
 ADDITIONAL NOTES:
-
 
 If you want to password-protect an individual entry, you will need to open the journal.php file in a text editor, and set a username and password which will always be used for the protected entries, and upload it to your server.  Then if you want to protect an entry, you should tick the appropriate box as you are keying in the entry, before submitting it.
 
